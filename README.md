@@ -8,6 +8,13 @@ You should also have the following content group: Articles. Within the `Articles
 
 I'm trying to stand up an installation of `Webiny` in one place that we can all then use; it's a bit complicated though and I don't really know what I'm doing (yet🤞).
 
+Finally (👀) you'll also need a `.env` file in the project root directory:
+
+```
+REACT_APP_GRAPHQL_URL=<YOUR WEBINY API URL THAT ENDS WITH ->/cms/read/production
+REACT_APP_ACCESS_TOKEN=<CREATE AN ACCESS TOKEN WITH PRODUCTION ACCESS IN YOUR WEBINY ADMIN>
+```
+
 ## Development
 
 To start, run:
